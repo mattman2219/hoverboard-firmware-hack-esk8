@@ -59,14 +59,14 @@
 
 // ###### CONTROL VIA RC REMOTE PPM ######
 // left sensor board cable. Channel 1: steering, Channel 2: speed.
-//#define CONTROL_PPM                 // use PPM-Sum as input. disable DEBUG_SERIAL_USART2!
-//#define PPM_NUM_CHANNELS 6          // total number of PPM channels to receive, even if they are not used.
+#define CONTROL_PPM                 // use PPM-Sum as input. disable DEBUG_SERIAL_USART2!
+#define PPM_NUM_CHANNELS 6          // total number of PPM channels to receive, even if they are not used.
 
 // ###### CONTROL VIA RC REMOTE PWM ######
 // left sensor board cable. Connect PA2 to channel 1 and PA3 to channel 2 on receiver.
 // Channel 1: steering, Channel 2: speed.
-#define CONTROL_PWM                 // use RC PWM as input. disable DEBUG_SERIAL_USART2!
-#define PWM_DEADBAND 100            // How much of the center position is considered 'center' (100 = values -100 to 100 are considered 0)
+//#define CONTROL_PWM                 // use RC PWM as input. disable DEBUG_SERIAL_USART2!
+//#define PWM_DEADBAND 100            // How much of the center position is considered 'center' (100 = values -100 to 100 are considered 0)
 // Min / Max values of each channel (use DEBUG to determine these values)
 #define PWM_CH1_MAX 1000            // (0 - 1000)
 #define PWM_CH1_MIN -1000           // (-1000 - 0)
